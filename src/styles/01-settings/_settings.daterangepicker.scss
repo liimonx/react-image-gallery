@@ -1,0 +1,9 @@
+@import url('https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css');
+
+.daterangepicker td.active {
+  background: $metro-teal;
+
+  &:hover {
+    background: rgba($metro-teal, 0.8);
+  }
+}

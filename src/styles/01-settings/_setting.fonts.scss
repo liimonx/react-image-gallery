@@ -1,0 +1,15 @@
+$assets-fonts-path : '/fonts';
+
+@mixin font-face($name, $filename, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $name;
+        src: url("#{$assets-fonts-path}/#{$filename}/#{$filename}.eot");
+        src: url("#{$assets-fonts-path}/#{$filename}/#{$filename}.eot?#iefix") format("embedded-opentype"),
+        url('#{$assets-fonts-path}/#{$filename}/#{$filename}.woff2') format('woff2'),
+        url("#{$assets-fonts-path}/#{$filename}/#{$filename}.woff") format("woff"),
+        url("#{$assets-fonts-path}/#{$filename}/#{$filename}.ttf") format("truetype");
+        font-weight: $weight;
+        font-style: $style;
+        text-rendering: optimizeLegibility;
+    }
+}

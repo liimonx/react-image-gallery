@@ -1,0 +1,14 @@
+// @include font-face('Avenir LT Std', AvenirLTStd-Black, $font-weight-bolder);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+$RobotoFontFamily: 'Roboto', sans-serif;
+// $AvenirFontFamily: 'Avenir LT Std', sans-serif;
+$font-family-base: $RobotoFontFamily;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-heavy: 800;
+$font-weight-bolder: 900;

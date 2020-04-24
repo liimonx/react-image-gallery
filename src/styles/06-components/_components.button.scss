@@ -1,0 +1,16 @@
+.c-btn {
+    border-radius: 6px;
+    border: none;
+    letter-spacing: 0;
+    font-weight: $font-weight-bold;
+    padding: 13px 57px;
+
+    &:focus {
+        outline: none;
+    }
+
+    &--primary {
+        color: $metro-white;
+        background: $metro-teal;
+    }
+}

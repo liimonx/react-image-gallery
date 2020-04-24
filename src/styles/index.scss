@@ -1,0 +1,62 @@
+// Required bootstrap Files
+@import "vendor/bootstrap/scss/_functions";
+@import "vendor/bootstrap/scss/_variables";
+@import "vendor/bootstrap/scss/_mixins";
+
+// 01. Settings
+
+@import '01-settings/settings.config';
+@import '01-settings/setting.fonts';
+@import '01-settings/setting.grid';
+@import '01-settings/settings.animations';
+@import '01-settings/settings.breakpoints';
+@import '01-settings/settings.colors';
+@import '01-settings/settings.spacing';
+@import '01-settings/settings.typography';
+@import '01-settings/settings.z-layers';
+
+// Optional bootstrap Files
+@import "vendor/bootstrap/scss/_reboot";
+// @import "vendor/bootstrap/scss/_root";
+@import "vendor/bootstrap/scss/_grid";
+@import "vendor/bootstrap/scss/_type";
+@import "vendor/bootstrap/scss/_transitions";
+
+// 02.Tools
+@import '02-tools/tools.animations';
+@import '02-tools/tools.clearfix';
+@import '02-tools/tools.hidden';
+@import '02-tools/tools.on-event';
+@import '02-tools/tools.placeholder';
+@import '02-tools/tools.spacing';
+@import '02-tools/tools.object-fit';
+
+// 03. Generic
+@import '03-generic/generic.selection';
+
+// 99. Utilities
+@import '99-utilities/utilities.clearfix';
+@import '99-utilities/utilities.text';
+@import '99-utilities/utilities.visibility';
+@import '99-utilities/utilities.row';
+@import '99-utilities/utilities.col';
+
+// 04. Elements
+@import '04-elements/elements.all';
+@import '04-elements/elements.body';
+@import '04-elements/elements.html';
+@import '04-elements/elements.links';
+
+// 05. Objects
+@import '05-objects/objects.container';
+@import '05-objects/objects.main';
+@import '05-objects/objects.header';
+@import '05-objects/objects.footer';
+@import '05-objects/objects.preloader';
+
+// 06. Components
+@import '06-components/components.alert';
+@import '06-components/components.input';
+@import '06-components/components.button';
+@import '06-components/components.imageCard';
+@import '06-components/components.search-form';

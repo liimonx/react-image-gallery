@@ -1,0 +1,10 @@
+$enable-grid-classes:  false;
+
+$container-max-widths: (
+    sm: 540px,
+	md: 728px + $grid-gutter-width,
+	lg: 1220px,
+	xl: 1440px + $grid-gutter-width,
+);
+
+$grid-gutter-width:           20px;

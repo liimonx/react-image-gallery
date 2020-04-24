@@ -1,0 +1,7 @@
+.o-container {
+  @include make-container();
+
+  &:not(.o-container--fluid) {
+    @include make-container-max-widths();
+  }
+}
