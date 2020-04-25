@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
+import ImagePreview from './ImagePreview'
 
 const ImageCard = ({ image }) => {
+    const [isOpen, setIsOpen] = useState(0)
+
     let imageCol = 6
 
     const displayWidht = window.innerWidth
@@ -23,7 +26,11 @@ const ImageCard = ({ image }) => {
 
     function handleClick(e) {
         e.preventDefault();
-        console.log('The link was clicked.');
+        if(isOpen === 0) {
+            setIsOpen(!0)
+        }else {
+            setIsOpen(0)
+        }
       }
     
     return (
@@ -35,6 +42,7 @@ const ImageCard = ({ image }) => {
                    </div>
                </div>
            </div>
+           {isOpen ? <ImagePreview image={image} callback={bol=> setIsOpen(bol)} /> : ''}
        </React.Fragment>
     ) 
 }
